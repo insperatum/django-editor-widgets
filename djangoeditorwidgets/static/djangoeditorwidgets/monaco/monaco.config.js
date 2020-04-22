@@ -41,8 +41,8 @@ document.addEventListener('DOMContentLoaded', function () {
                         'editor.lineHighlightBackground': '#00A1FF0F'
                     }
                 });
-                monaco.editor.setTheme('myTheme');
-
+//                 monaco.editor.setTheme('myTheme');
+                monaco.editor.setTheme('vs-dark');
                 var editor = monaco.editor.create(document.getElementById(container.id + '--editor'), {
                     renderWhitespace: true,
                     language: container.dataset.language,
